@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0px;
+}
+.divInfo {
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(134, 7, 7, 0.952);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+
+}
+.divImage {
+    width: 70px;
+    height: 70px;
+    opacity: 0.92;
+    float: right;
+    margin-right: 74px;
+
+}
+.logo {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.buttonHome {
+    width: 100px;
+    margin-left: 20px;
+    font-size: 19px;
+    background-color: rgba(134, 7, 7, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+}
+.buttonHome:hover {
+    background-color:rgba(205, 28, 28, 0.718); 
+    color: white;
+}
+.buttonContact {
+    font-size: 19px;
+    background-color: rgba(134, 7, 7, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 130px;    
+    
+}
+.buttonContact:hover {
+    background-color:rgba(205, 28, 28, 0.718); 
+    color: white;
+}
+.buttonHelp {
+    font-size: 19px;
+    background-color: rgba(134, 7, 7, 0.952); 
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 120px;
+    margin-left: 4px;
+    margin-right: 20px;
+}
+.buttonHelp:hover {
+    background-color:rgba(205, 28, 28, 0.718); 
+    color: white;
+}
+.Kings {
+    width: 170px;
+    font-size: 19px;
+    background-color: rgba(134, 7, 7, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+}
+.Kings:hover {
+    background-color:rgba(205, 28, 28, 0.718); 
+    color: white;
+}
+.background {
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 88vh;
+}
+.KingSports {
+    margin-left: 21px;
+    font-size: 59px;
+    font-family: "Helvetica";
+    color: rgba(205, 28, 28, 0.882);
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+.description {
+    font-size: 23px;
+    margin-left: 21px;
+    color: whitesmoke;
+    width: 450px;
+}
