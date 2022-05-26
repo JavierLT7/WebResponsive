@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tiro+Bangla&display=swap');
 * {
     box-sizing: border-box;
     
@@ -11,7 +12,7 @@ body {
     background-color: rgba(134, 7, 7, 0.952);
     display: flex;
     width: 100%;
-    justify-content: space-between;/**/
+    justify-content: space-between;
    
 
 }
@@ -97,17 +98,29 @@ body {
     height: 88vh;
 }
 .KingSports {
-    margin-left: 21px;
-    font-size: 59px;
-    font-family: "Helvetica";
+    margin-left: 20px;
+    font-size: 69px;
+    font-family: 'Raleway', sans-serif;
     color: rgba(205, 28, 28, 0.882);
-    margin-bottom: 30px;
+    margin-bottom: -4px;
     margin-top: 0px;
-    padding-top: 70px;
+    padding-top: 171px;
 }
 .description {
     font-size: 23px;
+    font-family: 'Raleway', sans-serif;
     margin-left: 21px;
     color: whitesmoke;
-    width: 450px;
+    width: 515px;
+}
+.carousel{
+    display: flex;
+    margin-left: 347px;
+    bottom: 145px;
+    width: 67%;
+    height: 320px;
+}
+.d-block w-100 {
+    width: 100% important;
+    height: 100% important;
 }
